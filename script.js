@@ -9,6 +9,6 @@
 // });
 document.querySelector("input").addEventListener("click", function () {
     let task = document.querySelector("#colorSelect");
-    let input = task.selectedIndex;
-    task.remove(input);
+    let inputId = task.selectedIndex;
+    task.remove(inputId);
 });
